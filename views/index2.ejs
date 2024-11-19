@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja To-Do</title>
+    <link rel="stylesheet" href="/styles/style.css">
+
+</head>
+<body>
+
+<header>
+    <div class="header">
+        <h1>Aplikacja To-Do</h1>
+        <p>Wprowadź dane</p>
+    </div>
+</header>
+
+<main>
+    <section class="content">
+        <h2 id="o_aplikacji">Wprowadzone dane</h2>
+        <p> Imię: <%= locals.textImie%></p>
+        <p> Nazwisko: <%= locals.textNazwisko%></p>
+        <p>Mail: <%= locals.textEmail%></p>
+    </section>
+</main>
+
+</body>
+</html>

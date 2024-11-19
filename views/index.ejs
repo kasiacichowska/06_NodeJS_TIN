@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja To-Do</title>
+    <link rel="stylesheet" href="/styles/style.css">
+
+</head>
+<body>
+
+<header>
+    <div class="header">
+        <h1>Aplikacja To-Do</h1>
+        <p>Wprowadź dane</p>
+    </div>
+</header>
+
+<main>
+    <section class="content">
+        <h2 id="o_aplikacji">Formularz</h2>
+
+        <form action="/submit" method="POST">
+            <label for="firstName">Imię:</label>
+            <input type="text" id="firstName" name="firstName" required><br>
+
+            <label for="lastName">Nazwisko:</label>
+            <input type="text" name="lastName" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <button type="submit">Dalej</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
